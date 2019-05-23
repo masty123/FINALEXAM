@@ -1,0 +1,20 @@
+{
+  "GCLOUD_PROJECT": "final-exam-241411",
+  "GOOGLE_APPLICATION_CREDENTIALS": "serviceaccount.json",
+  "twitter": {
+    "access_token_key": "1931461675-JCuVm7B544M3lEHJb9zXmyibL5QbpFWNkL5fsGH",
+    "access_token_secret": "2vAGvQDr8sTcQ82wXP7mDh7ZtsqDuyasTxF3w59fGAATL",
+    "consumer_secret": "USKhzQyFTjQHB8Ctj54Iga9JiuLgCGNoV6mZClR3LOr1ITwkJq",
+    "consumer_key": "DksOeS2btiysvLlNtNAJ5rLWB",
+    "sample_stream_url": "https://stream.twitter.com/1.1/statuses/sample.json",
+    "stream_url": "https://stream.twitter.com/1.1/statuses/filter.json"
+  },
+  "bigquery": {
+    "dataset": "staging",
+    "table": "twitter_stream_test"
+  },
+  "storage": {
+    "forBigQuery": true,
+    "bucketName": "finalexamswp"
+  }
+}
